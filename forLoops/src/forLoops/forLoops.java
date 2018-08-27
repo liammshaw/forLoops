@@ -9,7 +9,7 @@ public class forLoops
 				//showGeniusOne();
 				//showGeniusTwo();
 				//showGeniusThree();
-				showGeniusFour();
+				//showGeniusFour();
 			}
 		public static void showGeniusOne()
 			{
@@ -42,6 +42,10 @@ public class forLoops
 			}
 		public static void showGeniusFour()
 			{
-			
+				for (int i = 10; i > 0; i --)
+					{
+						System.out.println(i);
+					}
+				System.out.println("Liftoff");
 			}
 	}
