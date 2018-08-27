@@ -6,9 +6,9 @@ public class forLoops
 		public static void main(String[] args)
 			{
 				// TODO Auto-generated method stub
-				showGeniusOne();
-				showGeniusTwo();
-				showGeniusThree();
+				//showGeniusOne();
+				//showGeniusTwo();
+				//showGeniusThree();
 				showGeniusFour();
 			}
 		public static void showGeniusOne()
@@ -27,7 +27,18 @@ public class forLoops
 			}
 		public static void showGeniusThree()
 			{
-				
+				for (int i = 1; i<=5; i++)
+					{
+						System.out.print(i);
+						if (i < 5)
+							{
+								System.out.print(", ");
+							}
+						else
+							{
+								System.out.print(" ");
+							}
+					}
 			}
 		public static void showGeniusFour()
 			{
