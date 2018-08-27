@@ -10,7 +10,8 @@ public class forLoops
 				//showGeniusTwo();
 				//showGeniusThree();
 				//showGeniusFour();
-				showGeniusFive();
+				//showGeniusFive();
+				showGeniusSix();
 			}
 		public static void showGeniusOne()
 			{
@@ -57,5 +58,9 @@ public class forLoops
 						sum  = sum +i;
 					}
 				System.out.println(sum);
+			}
+		public static void showGeniusSix()
+			{
+				
 			}
 	}
