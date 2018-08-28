@@ -95,4 +95,5 @@ public class forLoops
 					}
 				System.out.println(sum);
 			}
+		//github test
 	}
