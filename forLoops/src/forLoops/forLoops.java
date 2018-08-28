@@ -1,5 +1,5 @@
 package forLoops;
-
+import java.util.Scanner;
 public class forLoops
 	{
 
@@ -11,7 +11,8 @@ public class forLoops
 				//showGeniusThree();
 				//showGeniusFour();
 				//showGeniusFive();
-				showGeniusSix();
+				//showGeniusSix();
+				//showGeniusSeven();
 			}
 		public static void showGeniusOne()
 			{
@@ -61,6 +62,37 @@ public class forLoops
 			}
 		public static void showGeniusSix()
 			{
-				
+				Scanner userInput = new Scanner(System.in);
+				System.out.println("Please give a upperbound number");
+				int upperboundNumber = userInput.nextInt();
+				System.out.println("please give a lowerbound number");
+				int lowerboundNumber = userInput.nextInt();
+				int sum = 0;
+				for (;lowerboundNumber <= upperboundNumber; lowerboundNumber ++)
+					{
+						sum = sum + lowerboundNumber;
+					}
+				System.out.println(sum);
+			}
+		public static void showGeniusSeven()
+			{
+				Scanner userInput = new Scanner(System.in);
+				System.out.println("Please give a upperbound number");
+				int upperboundNumber = userInput.nextInt();
+				System.out.println("please give a lowerbound number");
+				int lowerboundNumber = userInput.nextInt();
+				int sum = 0;
+				for (;lowerboundNumber <= upperboundNumber; lowerboundNumber ++)
+					{
+						if (lowerboundNumber % 3 == 0) 
+							{
+								sum = sum + lowerboundNumber;
+							}
+						else
+							{
+								sum = sum + 0;
+							}
+					}
+				System.out.println(sum);
 			}
 	}
