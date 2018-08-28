@@ -95,6 +95,5 @@ public class forLoops
 					}
 				System.out.println(sum);
 			}
-		//github test
+		//githubtest
 	}
-//liam has ligma
